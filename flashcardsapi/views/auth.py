@@ -11,7 +11,7 @@ from rest_framework.authtoken.models import Token
 @csrf_exempt
 def register(request):
     '''
-    Handles the registration of a new user, and authentication
+    Handles the registration of a new user
     Method arguments:
         request -- The full HTTP request object
     URL: http://localhost:8000/register
