@@ -3,8 +3,8 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "Flash",
-            "database": "db.sqlite3"
+            "name": "flash",
+            "database": "${workspaceFolder:flashcards-server}/db.sqlite3"
         }
     ]
 }

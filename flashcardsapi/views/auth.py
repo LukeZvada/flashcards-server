@@ -17,7 +17,7 @@ def register(request):
         request -- The full HTTP request object
     URL: http://localhost:8000/register
     Request Method: POST
-    Body:
+    Body (admin):
         {
         "username": "harrypotter",
         "email": "harry@potter.com",
@@ -27,9 +27,9 @@ def register(request):
         }
     Response:
         {
-        "token": "50475b0889f3e433c467ad0afb20fe68b15d9c0c"
+        "token": "e48584ea29993d6e7b6fc97da6e29ab1c24ef1e7"
         }
-    Body:
+    Body (not-admin):
         {
         "username": "hermionegranger",
         "email": "hermione@granger.com",
@@ -39,7 +39,7 @@ def register(request):
         }
     Response:
         {
-        "token": "d9f9daa316324df9460755af022a2c087946b606"
+        "token": "079ef37acfa281ee45cbebb5199728940b4b4194"
         }
     '''
 
