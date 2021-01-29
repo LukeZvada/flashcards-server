@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/home/jmskinner/.local/share/virtualenvs/flashcards-5EO2zRey/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Flash",
+            "database": "db.sqlite3"
+        }
+    ]
+}
