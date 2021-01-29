@@ -3,7 +3,6 @@ View module for handling user authentication and new user registration
 """
 import json
 from django.http import HttpResponse
-from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework import status
@@ -43,7 +42,7 @@ def register(request):
         }
     '''
 
-    # Load the JSON string of the request body into a dict
+    # Load JSON string of request body into a dict
     req_body = json.loads(request.body.decode())
 
     # Create a new user by invoking the `create_user` helper method on Django's built-in User model
