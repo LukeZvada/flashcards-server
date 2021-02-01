@@ -1,0 +1,13 @@
+[
+    {
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "question_text": 1,
+            "question_display": "Post title",
+            "answer_value": "2020-11-10"
+        }
+    }
+
+]
