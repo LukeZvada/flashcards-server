@@ -1,0 +1,94 @@
+[
+    {
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "question_text": "What is Django?",
+            "question_display": "What is Django?",
+            "answer_value": "Django is a Python Web framework that follows the model-view-template architectural pattern."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "question_text": "What is a ViewSet?",
+            "question_display": "What is a ViewSet?",
+            "answer_value": "The ViewSet is a class that contains the logic of which data should be sent in a response to the client."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "question_text": "What is a Serializer?",
+            "question_display": "What is a Serializer?",
+            "answer_value": "A tool that converts Python data into JSON format"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "question_text": "What is the DefaultRouter?",
+            "question_display": "What is the DefaultRouter?",
+            "answer_value": "The DefaultRouter is a built-in Django class that defines the routes the API will respond to."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "question_text": "What is an ORM?",
+            "question_display": "What is an ORM?",
+            "answer_value": "Object-Relational Mapping is a technique that lets you query and manipulate data from a database using object-oriented programing. An ORM refers to a library, such as Django, that uses the Object-Relational Mapping technique to query the database in our language of choice rather than SQL."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "question_text": "What is a non-mapped property?",
+            "question_display": "What is a non-mapped property?",
+            "answer_value": "A property on a Model class that is not stored in the database, but is calculated during the response and request cycle with a client."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "question_text": "What is a non-mapped property?",
+            "question_display": "What is a non-mapped property?",
+            "answer_value": "A property on a Model class that is not stored in the database, but is calculated during the response and request cycle with a client."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "question_text": "What is a custom action?",
+            "question_display": "What is a custom action?",
+            "answer_value": "A custom action supports an action in an API's url that doesn't fit the standard create, update, delete style."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "question_text": "What is an endpoint?",
+            "question_display": "What is an endpoint?",
+            "answer_value": "An endpoint is a URL that enables an API to gain access to resources on a server."
+        }
+    }
+
+
+]
