@@ -66,7 +66,7 @@ def register(request):
 
 
 @csrf_exempt
-def login_user(request):
+def login(request):
     '''Handles the authentication of a gamer
 
     Method arguments:

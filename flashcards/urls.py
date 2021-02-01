@@ -20,7 +20,7 @@ from django.urls import path
 from django.conf.urls import include
 from django.conf import settings
 from rest_framework import routers
-from flashcardsapi.views import register
+from flashcardsapi.views import register, login
 
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -29,6 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
     path('register', register),
+    path('login', login),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework'))
 
 ]
