@@ -1,0 +1,142 @@
+[
+    {
+    "model": "flashcardsapi.question",
+    "pk": 1,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is git?",
+        "question_display": "What is git?",
+        "answer_value": "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development."
+      }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 2,
+    "fields": {
+      "user_id": "1",
+      "question_text": "What are Semantic Elements?",
+      "question_display": "What are Semantic Elements?",
+      "answer_value": "A semantic element clearly describes its meaning to both the browser and the developer. Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content."
+    }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 3,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is Github?",
+        "question_display": "What is Github?",
+        "answer_value": "GitHub is a provider of Internet hosting for software development and version control using Git."
+      }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 4,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is the purpose of an object?",
+        "question_display": "What is the purpose of an object?",
+        "answer_value": "The main purpose of an object is to represent real-world things in code."
+      }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 5,
+    "fields": {
+        "user_id": "1",
+        "question_text": "Why is it important to use modules?",
+        "question_display": "Why is it important to use modules?",
+        "answer_value": "Good modules, however, are highly self-contained with distinct functionality, allowing them to be shuffled, removed, or added as necessary, without disrupting the system as a whole."
+      }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 6,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is the difference between let and const?",
+        "question_display": "What is the difference between let and const?",
+        "answer_value": "The value of let can be reassigned and const can not be changed."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 7,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What does the forEach() array method do?",
+        "question_display": "What does the forEach() array method do?",
+        "answer_value": "The forEach() method calls a function once for each element in an array, in order."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 8,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What does the filter() array method do?",
+        "question_display": "What does the filter() array method do?",
+        "answer_value": "The filter() method creates an array filled with all array elements that pass a test (provided as a function)."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 9,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What does the map() array method do?",
+        "question_display": "What does the map() array method do?",
+        "answer_value": "The map method is used for transforming items in one array to a different structure, and storing the new items in another array."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 10,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What does the find() array method do?",
+        "question_display": "What does the find() array method do?",
+        "answer_value": "The find() method returns the value of the first element in an array that pass a test (provided as a function)."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 11,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is a DataProvider module?",
+        "question_display": "What is a DataProvider module?",
+        "answer_value": "A data provider module in an application has the responsibility of maintaining the state of a particular type of data."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 12,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is the DOM?",
+        "question_display": "What is the DOM?",
+        "answer_value": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 13,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is a query selector?",
+        "question_display": "What is a query selector?",
+        "answer_value": "The querySelector() method returns the first element that matches a specified CSS selector(s) in the document. e.g., document.querySelector(\".example\");"
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 14,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is a factory function?",
+        "question_display": "What is a factory function?",
+        "answer_value": "A factory function is a function that returns a new object."
+      }
+  }
+]
