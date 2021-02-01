@@ -108,5 +108,35 @@
         "question_display": "What is a DataProvider module?",
         "answer_value": "A data provider module in an application has the responsibility of maintaining the state of a particular type of data."
       }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 12,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is the DOM?",
+        "question_display": "What is the DOM?",
+        "answer_value": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 13,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is a query selector?",
+        "question_display": "What is a query selector?",
+        "answer_value": "The querySelector() method returns the first element that matches a specified CSS selector(s) in the document. e.g., document.querySelector(\".example\");"
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 14,
+    "fields": {
+        "user_id": "1",
+        "question_text": "What is a factory function?",
+        "question_display": "What is a factory function?",
+        "answer_value": "A factory function is a function that returns a new object."
+      }
   }
 ]
