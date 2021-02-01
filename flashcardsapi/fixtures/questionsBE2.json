@@ -61,7 +61,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 6,
+        "pk": 7,
         "fields": {
             "user": 1,
             "question_text": "What is a non-mapped property?",
@@ -71,7 +71,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 7,
+        "pk": 8,
         "fields": {
             "user": 1,
             "question_text": "What is a custom action?",
@@ -81,7 +81,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "user": 1,
             "question_text": "What is an endpoint?",
