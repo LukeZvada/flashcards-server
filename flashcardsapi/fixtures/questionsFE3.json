@@ -4,9 +4,9 @@
     "pk": 1,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is an Entity Relationship Diagram (ERD)?",
+        "question_display": "What is an Entity Relationship Diagram (ERD)?",
+        "answer_value": "An Entity Relationship Diagram (ERD) is a type of diagram that lets you see how different entities (e.g. people, customers, or other objects) relate to each other in an application or a database."
       }
   }, 
   {
@@ -14,9 +14,9 @@
     "pk": 2,
     "fields": {
       "user_id": "1",
-      "question_text": "",
-      "question_display": "",
-      "answer_value": ""
+      "question_text": "What is a primary key (pk)?",
+      "question_display": "What is a primary key (pk)?",
+      "answer_value": "Primary keys are an attribute or combination of attributes that uniquely identifies one and only one instance of an entity."
     }
   }, 
   {
@@ -24,9 +24,9 @@
     "pk": 3,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is a foreign key (fk)?",
+        "question_display": "What is a foreign key (fk)?",
+        "answer_value": "Foreign keys are created any time an attribute relates to another entity in a one-to-one or one-to-many relationship. Or can be thought of as a primary key (pk) on another table that signifies a relationship."
       }
   }, 
   {
@@ -34,9 +34,9 @@
     "pk": 4,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is an API?",
+        "question_display": "What is an API?",
+        "answer_value": "An application programming interface (API) is a computing interface that defines interactions between multiple software intermediaries. It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc."
       }
   }, 
   {
@@ -44,9 +44,9 @@
     "pk": 5,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is a JavaScript array?",
+        "question_display": "What is a JavaScript array?",
+        "answer_value": "JavaScript arrays are used to store multiple values in a single variable. e.g., var cars = [\"Saab\", \"Volvo\", \"BMW\"];"
       }
   }, 
   {
@@ -54,9 +54,9 @@
     "pk": 6,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is a many-to-many relationship?",
+        "question_display": "What is a many-to-many relationship?",
+        "answer_value": "Best to think of with an example, A family member can have many chores or Each chore can be assigned to many family members. This is a many-to-many relationship. This will require us to have a data set whose purpose is simply to store those relationships. This allows us maximum flexibility because we can assign any number of family members to a task, and assign any number of tasks to a family member. Many-to-many relationships need a join table."
       }
   },
   {
@@ -64,79 +64,9 @@
     "pk": 7,
     "fields": {
         "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 8,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 9,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 10,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 11,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 12,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 13,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 14,
-    "fields": {
-        "user_id": "1",
-        "question_text": "",
-        "question_display": "",
-        "answer_value": ""
+        "question_text": "What is a one-to-many relationship?",
+        "question_display": "What is a one-to-many relationship?",
+        "answer_value": "When more than one instance of an entity is related and linked with a relationship. e.g., A student can work on more than one project."
       }
   }
 ]
