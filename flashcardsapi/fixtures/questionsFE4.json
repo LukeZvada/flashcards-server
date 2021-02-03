@@ -3,7 +3,6 @@
     "model": "flashcardsapi.question",
     "pk": 1,
     "fields": {
-        "user": "1",
         "question_text": "What is React?",
         "question_display": "What is React?",
         "answer_value": "React (also known as React.js or bazingaJS) is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing. React Router is an example of such a library."
@@ -13,7 +12,6 @@
     "model": "flashcardsapi.question",
     "pk": 2,
     "fields": {
-      "user": "1",
       "question_text": "What is JSX?",
       "question_display": "What is JSX?",
       "answer_value": "It is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript. JSX produces React “elements”."
@@ -23,7 +21,6 @@
     "model": "flashcardsapi.question",
     "pk": 3,
     "fields": {
-        "user": "1",
         "question_text": "What is the Single-responsibility principle?",
         "question_display": "What is the Single-responsibility principle?",
         "answer_value": "The single-responsibility principle (SRP) is a computer-programming principle that states that every class in a computer program should have responsibility over a single part of that program's functionality, which it should encapsulate. All of that module, class or function's services should be narrowly aligned with that responsibility."
@@ -33,7 +30,6 @@
     "model": "flashcardsapi.question",
     "pk": 4,
     "fields": {
-        "user": "1",
         "question_text": "What does a React hook do?",
         "question_display": "What does a React hook do?",
         "answer_value": "They let you use state and other React features without writing a class."
@@ -43,7 +39,6 @@
     "model": "flashcardsapi.question",
     "pk": 5,
     "fields": {
-        "user": "1",
         "question_text": "What are React props?",
         "question_display": "What are React props?",
         "answer_value": "Props are used to pass data from a parent component to a child component in React and they are the main mechanism for component communication."
@@ -53,7 +48,6 @@
     "model": "flashcardsapi.question",
     "pk": 6,
     "fields": {
-        "user": "1",
         "question_text": "What does the useState() hook do?",
         "question_display": "What does the useState() hook do?",
         "answer_value": "useState() is what the React team calls a hook. It is used to store data about the component."
@@ -63,7 +57,6 @@
     "model": "flashcardsapi.question",
     "pk": 7,
     "fields": {
-        "user": "1",
         "question_text": "What does createContext() do in React?",
         "question_display": "What does createContext() do in React?",
         "answer_value": "Create the context to be used by other components that need data."
@@ -73,7 +66,6 @@
     "model": "flashcardsapi.question",
     "pk": 8,
     "fields": {
-        "user": "1",
         "question_text": "What does useContext() for in React?",
         "question_display": "What does useContext() for in React?",
         "answer_value": "Used by UI components that need data stored in the context, and exposed by the provider component."
@@ -83,7 +75,6 @@
     "model": "flashcardsapi.question",
     "pk": 9,
     "fields": {
-        "user": "1",
         "question_text": "What does useEffect() do?",
         "question_display": "What does useEffect() do?",
         "answer_value": "By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we’ll refer to it as our “effect”), and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API."
@@ -93,7 +84,6 @@
     "model": "flashcardsapi.question",
     "pk": 10,
     "fields": {
-        "user": "1",
         "question_text": "What does history.push() do? May also appear as props.history.push()",
         "question_display": "What does history.push() do?",
         "answer_value": "It changes the URL."
@@ -103,7 +93,6 @@
     "model": "flashcardsapi.question",
     "pk": 11,
     "fields": {
-        "user": "1",
         "question_text": "What does the GET HTTP method do?",
         "question_display": "What does the GET HTTP method do?",
         "answer_value": "The GET method requests a representation of the specified resource."
@@ -113,7 +102,6 @@
     "model": "flashcardsapi.question",
     "pk": 12,
     "fields": {
-        "user": "1",
         "question_text": "What does the POST HTTP method do?",
         "question_display": "What does the POST HTTP method do?",
         "answer_value": "The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server."
@@ -123,7 +111,6 @@
     "model": "flashcardsapi.question",
     "pk": 13,
     "fields": {
-        "user": "1",
         "question_text": "What does the PUT HTTP method do?",
         "question_display": "What does the PUT HTTP method do?",
         "answer_value": "The PUT method replaces all current representations of the target resource with the request payload."
@@ -133,17 +120,15 @@
     "model": "flashcardsapi.question",
     "pk": 14,
     "fields": {
-        "user": "1",
         "question_text": "What does the DELETE HTTP method do?",
         "question_display": "What does the DELETE HTTP method do?",
         "answer_value": "The DELETE method deletes the specified resource."
       }
-  }
+  },
   {
     "model": "flashcardsapi.question",
     "pk": 15,
     "fields": {
-        "user": "1",
         "question_text": "What does the PATCH HTTP method do?",
         "question_display": "What does the PATCH HTTP method do?",
         "answer_value": "The PATCH method is used to apply partial modifications to a resource."
@@ -153,7 +138,6 @@
     "model": "flashcardsapi.question",
     "pk": 16,
     "fields": {
-        "user": "1",
         "question_text": "What is a conditional (ternary) operator/ ternary expression?",
         "question_display": "What is a conditional (ternary) operator?",
         "answer_value": "The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. This operator is frequently used as a shortcut for the if statement. e.g., condition ? exprIfTrue : exprIfFalse"
