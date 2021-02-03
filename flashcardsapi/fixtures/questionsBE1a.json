@@ -1,0 +1,73 @@
+[
+    {
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "user": "1",
+            "question_text": "What are the four collection data types in Python?",
+            "question_display": "What are the four collection data types in Python?",
+            "answer_value": "List, tuple, dictionary, and set"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 2,
+        "fields": {
+            "user": "1",
+            "question_text": "Lists in Python are similar to what data structure in JavaScript?",
+            "question_display": "Lists in Python are similar to what data structure in JavaScript?",
+            "answer_value": "Arrays"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 3,
+        "fields": {
+            "user": "1",
+            "question_text": "How are elements accessed in dictionaries?",
+            "question_display": "How are elements accessed in dictionaries?",
+            "answer_value": "Key value pairs"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 4,
+        "fields": {
+            "user": "1",
+            "question_text": "True or False -- You should change the values of a tuple with the update method.",
+            "question_display": "True or False -- You should change the values of a tuple with the update method.",
+            "answer_value": "False -- Tuples are immutable."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "user": "1",
+            "question_text": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- How do you add another student to the list?",
+            "question_display": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- How do you add another student to the list?",
+            "answer_value": "STUDENTS.append({'id' : 3, 'name' : 'a_name'}]"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "user": "1",
+            "question_text": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- Print each student name in the list",
+            "question_display": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- Print each student name in the list",
+            "answer_value": "for student in STUDENTS: print(student['name'])"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 6,
+        "fields": {
+            "user": "1",
+            "question_text": "Given STUDENTS = ['Joe', 'Max', 'Caroline'] -- What is the value of students list after STUDENTS.pop(1)",
+            "question_display": "Given STUDENTS = ['Joe', 'Max', 'Caroline'] -- What is the value of students list after STUDENTS.pop(1)",
+            "answer_value": "['Joe', 'Caroline']"
+        }
+    }
+
+]
