@@ -1,0 +1,40 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "password": "pbkdf2_sha256$216000$0DCgY9PHH4Ug$Arte7cXdrT8ThzC0F3rItwj8WYZ8+PsC7cBV8kB0sgE=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "harrypotter",
+            "first_name": "Harry",
+            "last_name": "Potter",
+            "email": "harry@potter.com",
+            "is_staff": 1,
+            "is_active": 1,
+            "date_joined": "2019-08-28T14:51:39.989Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "password": "pbkdf2_sha256$216000$cROpIWjblxgR$FoINh+z2JalVyNTgktT+nGcgymq/xITRiR7JZrdsZXY=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "hermionegranger",
+            "first_name": "Hermione",
+            "last_name": "Granger",
+            "email": "hermione@granger.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2019-08-28T14:51:39.989Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
