@@ -1,0 +1,57 @@
+[
+    {
+    "model": "flashcardsapi.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "What does API stand for?",
+        "question_display": "What does API stand for?",
+        "answer_value": "API stands for Application Programming interface."
+      }
+  }, 
+  {
+    "model": "flashcardsapi.question",
+    "pk": 2,
+    "fields": {
+        "question_text": "What is the Fetch Api?",
+        "question_display": "What is the Fetch Api?",
+        "answer_value": "A Fetch Api provides you with a fetch() method to initiate the request to another service on the World Wide Web"
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 3,
+    "fields": {
+        "question_text": "Describe coupling and why it is something you want to avoid when programming?",
+        "question_display": "Describe coupling and why it is something you want to avoid when programming?",
+        "answer_value": "Coupling refers to how many components know about the existence of each other and how restrictive the interactions are. Components that are coupled, make refactoring code more difficult."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 4,
+    "fields": {
+        "question_text": "Describe the use of the EventHub in javascript.",
+        "question_display": "Describe the use of the EventHub in javascript.",
+        "answer_value": "The EventHub is the agreed-upon location, typically the topmost DOM element where all components can broadcast custom messages to and other components needing to listen for another component would do it throught the eventhub."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 5,
+    "fields": {
+        "question_text": "What is json-server?",
+        "question_display": "What is json-server?",
+        "answer_value": "Json-server is a tool used to run your own, local API in which you can manage data."
+      }
+  },
+  {
+    "model": "flashcardsapi.question",
+    "pk": 6,
+    "fields": {
+        "question_text": "What is the purpose of an ERD?",
+        "question_display": "What is the purpose of an ERD?",
+        "answer_value": "An ERD is used to visualize the relationships in a database. "
+      }
+  }
+
+]
