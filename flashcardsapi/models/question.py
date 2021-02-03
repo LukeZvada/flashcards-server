@@ -7,3 +7,4 @@ class Question(models.Model):
     question_text = models.CharField(max_length=500)
     question_display = models.CharField(max_length=45)
     answer_value = models.CharField(max_length=500)
+    approved = models.BooleanField(default=False)
