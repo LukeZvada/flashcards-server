@@ -1,38 +1,38 @@
 [
     {
-    "model": "flashcardsapi.question",
-    "pk": 1,
-    "fields": {
-        "question_text": "What is the Chinook database?",
-        "question_display": "What is the Chinook database?",
-        "answer_value": "Chinook is a sample database for use with various database management systems (SQLite, MySQL, PostgreSQL, and others). Fun fact: it was largely generated using real data from an iTunes library!"
-    }
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "question_text": "What is the Chinook database?",
+            "question_display": "What is the Chinook database?",
+            "answer_value": "Chinook is a sample database for use with various database management systems (SQLite, MySQL, PostgreSQL, and others). Fun fact: it was largely generated using real data from an iTunes library!"
+        }
     },
     {
-    "model": "flashcardsapi.question",
-    "pk": 2,
-    "fields": {
-        "question_text": "What is the purpose of integration testing?",
-        "question_display": "What is the purpose of integration testing?",
-        "answer_value": "Integration tests ensure that your application's code does what it's expected to do and that bug fixes and new features do not break existing functionality."
-    }
+        "model": "flashcardsapi.question",
+        "pk": 2,
+        "fields": {
+            "question_text": "What is the purpose of integration testing?",
+            "question_display": "What is the purpose of integration testing?",
+            "answer_value": "Integration tests ensure that your application's code does what it's expected to do and that bug fixes and new features do not break existing functionality."
+        }
     },
     {
-    "model": "flashcardsapi.question",
-    "pk": 3,
-    "fields": {
-        "question_text": "What are Django templates and how are they used in generating reports?",
-        "question_display": "What are Django templates and how are they used in generating reports?",
-        "answer_value": "Django templates are a method for delivering dynamic HTML (similar to JSX in front-end development). One use for this HTML would be to generate a report for your users."
-    }
+        "model": "flashcardsapi.question",
+        "pk": 3,
+        "fields": {
+            "question_text": "What are Django templates and how are they used in generating reports?",
+            "question_display": "What are Django templates and how are they used in generating reports?",
+            "answer_value": "Django templates are a method for delivering dynamic HTML (similar to JSX in front-end development). One use for this HTML would be to generate a report for your users."
+        }
     },
     {
-    "model": "flashcardsapi.question",
-    "pk": 4,
-    "fields": {
-        "question_text": "What is a database view?",
-        "question_display": "What is a database view?",
-        "answer_value": "A database view is a SQL statement that is stored in the database itself. If multiple applications are using the same queries on a database, a view might be created to avoid having to recreate the same query on each application."
-    }
+        "model": "flashcardsapi.question",
+        "pk": 4,
+        "fields": {
+            "question_text": "What is a database view?",
+            "question_display": "What is a database view?",
+            "answer_value": "A database view is a SQL statement that is stored in the database itself. If multiple applications are using the same queries on a database, a view might be created to avoid having to recreate the same query on each application."
+        }
     }
 ]
