@@ -1,0 +1,140 @@
+[
+    {
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "question_text": "What are the four collection data types in Python?",
+            "question_display": "What are the four collection data types in Python?",
+            "answer_value": "List, tuple, dictionary, and set"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 2,
+        "fields": {
+            "question_text": "Lists in Python are similar to what data structure in JavaScript?",
+            "question_display": "Lists in Python are similar to what data structure in JavaScript?",
+            "answer_value": "Arrays"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 3,
+        "fields": {
+            "question_text": "How are elements accessed in dictionaries?",
+            "question_display": "How are elements accessed in dictionaries?",
+            "answer_value": "Key value pairs"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 4,
+        "fields": {
+            "question_text": "True or False -- You should change the values of a tuple with the update method.",
+            "question_display": "True or False -- You should change the values of a tuple with the update method.",
+            "answer_value": "False -- Tuples are immutable."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "question_text": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- How do you add another student to the list?",
+            "question_display": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- How do you add another student to the list?",
+            "answer_value": "STUDENTS.append({'id' : 3, 'name' : 'a_name'}]"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "question_text": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- Print each student name in the list",
+            "question_display": "Given STUDENTS = [{'id' : 1, 'name' : 'Joe'}, {'id' : 2, 'name' : 'Max'}] -- Print each student name in the list",
+            "answer_value": "for student in STUDENTS: print(student['name'])"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 6,
+        "fields": {
+            "question_text": "Given STUDENTS = ['Joe', 'Max', 'Caroline'] -- What is the value of students list after STUDENTS.pop(1)",
+            "question_display": "Given STUDENTS = ['Joe', 'Max', 'Caroline'] -- What is the value of students list after STUDENTS.pop(1)",
+            "answer_value": "['Joe', 'Caroline']"
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 7,
+        "fields": {
+            "question_text": "In general, classes are like what for creating an object?",
+            "question_display": "In general, classes are like what for creating an object?",
+            "answer_value": "Classes act as a blueprint for creating objects."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 8,
+        "fields": {
+            "question_text": "What is the main purpose of the __init__() method on a class?",
+            "question_display": "What is the main purpose of the __init__() method on a class?",
+            "answer_value": "It initializes each new instance of a class."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 9,
+        "fields": {
+            "question_text": "Why is a class instantiated?",
+            "question_display": "Why is a class instantiated?",
+            "answer_value": "A class is instantiated to create an object from its design and contains real data."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 10,
+        "fields": {
+            "question_text": "What is an instance attribute?",
+            "question_display": "What is an instance attribute?",
+            "answer_value": "Instance attributes are created by the __init__() and its values are specific to a particular instance of a class."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 11,
+        "fields": {
+            "question_text": "What is a class attribute?",
+            "question_display": "What is a class attribute?",
+            "answer_value": "A class attribute provides the same value for all instances of that class."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 11,
+        "fields": {
+            "question_text": "Which is the instance attribute and which is the class attribute? class Dog: species = 'Canis familiaris' def __init__(self, name, age): self.name = name self.age = age",
+            "question_display": "Which is the instance attribute and which is the class attribute?",
+            "answer_value": "Species is the class attribute and name and age are instance attributes."
+        }
+
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 11,
+        "fields": {
+            "question_text": "Instantiate the following class -- class Dog: species = 'Canis familiaris' def __init__(self, name, age): self.name = name self.age = age",
+            "question_display": "Instantiate the the Dog class.",
+            "answer_value": "luna = Dog('Luna', 10)"
+        }
+
+    }
+
+
+
+
+
+]
