@@ -1,0 +1,77 @@
+[
+    {
+        "model": "flashcardsapi.question",
+        "pk": 1,
+        "fields": {
+            "question_text": "In the most general sense, what is inheritance?",
+            "question_display": "In the most general sense, what is inheritance?",
+            "answer_value": "Class based inheritance is an OOP mechanism of deriving new classes from existing ones. It allows objects created through inheritance (child object) to acquire all the attributes of the parent class."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 2,
+        "fields": {
+            "question_text": "Why is should I care about inheritance?",
+            "question_display": "Why is should I care about inheritance?",
+            "answer_value": "It is primarily used to reduce duplicated where many types share the same properties and methods."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 3,
+        "fields": {
+            "question_text": "What is method overriding?",
+            "question_display": "What is method overriding?",
+            "answer_value": "Because the child class has access to the parent class methods, it can provide a new implementation to the parent class methods."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 4,
+        "fields": {
+            "question_text": "What is database normalization?",
+            "question_display": "What is database normalization?",
+            "answer_value": "Database normalization minimizes duplicate data in any single table, and allows for data in the database to grow independently of each other."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 5,
+        "fields": {
+            "question_text": "What is INNER JOIN (JOIN)?",
+            "question_display": "What is INNER JOIN?",
+            "answer_value": "A process that matches rows from the first table and the second table which have the same key set by the ON constraint to create a result row with the combined columns from both tables."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 6,
+        "fields": {
+            "question_text": "What is LEFT JOIN?",
+            "question_display": "What is LEFT JOIN?",
+            "answer_value": "If joining tables A and B, LEFT JOIN includes rows from A regardless of whether a matching row is found in B."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 7,
+        "fields": {
+            "question_text": "What is RIGHT JOIN?",
+            "question_display": "What is RIGHT JOIN?",
+            "answer_value": "If joining tables A and B, RIGHT JOIN includes rows from B regardless of whether a matching row is found in A."
+        }
+    },
+    {
+        "model": "flashcardsapi.question",
+        "pk": 8,
+        "fields": {
+            "question_text": "What is FULL JOIN?",
+            "question_display": "What is FULL JOIN?",
+            "answer_value": "If joining tables A and B, FULL JOIN includes rows from both tables regardless of whether a matching row exists."
+        }
+    }
+
+
+
+]
