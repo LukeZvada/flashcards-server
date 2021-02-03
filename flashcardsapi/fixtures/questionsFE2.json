@@ -16,19 +16,10 @@
         "question_display": "What is the Fetch Api?",
         "answer_value": "A Fetch Api provides you with a fetch() method to initiate the request to another service on the World Wide Web"
       }
-  }, 
-  {
-    "model": "flashcardsapi.question",
-    "pk": 3,
-    "fields": {
-        "question_text": "What does ERD stand for?",
-        "question_display": "What does ERD stand for?",
-        "answer_value": "ERD stands for Entity Relationship Diagram"
-      }
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 4,
+    "pk": 3,
     "fields": {
         "question_text": "Describe coupling and why it is something you want to avoid when programming?",
         "question_display": "Describe coupling and why it is something you want to avoid when programming?",
@@ -37,16 +28,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 5,
-    "fields": {
-        "question_text": "What is a primary key?",
-        "question_display": "What is a primary key?",
-        "answer_value": " A primary key is a constraint that uniquely identifies each object in an array or record in a table. Typically the ID property. "
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 6,
+    "pk": 4,
     "fields": {
         "question_text": "Describe the use of the EventHub in javascript.",
         "question_display": "Describe the use of the EventHub in javascript.",
@@ -55,7 +37,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 7,
+    "pk": 5,
     "fields": {
         "question_text": "What is json-server?",
         "question_display": "What is json-server?",
@@ -64,38 +46,11 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 8,
-    "fields": {
-        "question_text": "What is a foreign key?",
-        "question_display": "What is a foreign key?",
-        "answer_value": "A foreign key is a key used to link two tables together which is a field in a table that refers to the primary key in another table. "
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 9,
+    "pk": 6,
     "fields": {
         "question_text": "What is the purpose of an ERD?",
         "question_display": "What is the purpose of an ERD?",
         "answer_value": "An ERD is used to visualize the relationships in a database. "
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 10,
-    "fields": {
-        "question_text": "Describe a ONE to MANY relationship?",
-        "question_display": "Describe a ONE to MANY relationship?",
-        "answer_value": "A One to many relationship is when one instance in a table can be associated with one or more instances in another table. For example, each customer can have many sales orders."
-      }
-  },
-  {
-    "model": "flashcardsapi.question",
-    "pk": 11,
-    "fields": {
-        "question_text": "Descirbe a MANY to MANY relationship?",
-        "question_display": "Descirbe a MANY to MANY relationship?",
-        "answer_value": "A many to many relationshiop occurs when many instances in a table are associated with many instances in another table. For example, customers can purchase many different products and products can be purchased by many different customers. "
       }
   }
 
