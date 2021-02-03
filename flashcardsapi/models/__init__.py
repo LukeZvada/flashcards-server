@@ -1,3 +1,3 @@
 from .question import Question
-from .topic import Topic
-from .topicquestion import TopicQuestion
+from .category import Category
+from .categoryquestion import CategoryQuestion
