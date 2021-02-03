@@ -1,4 +1,4 @@
 """
 Flash Cards View Package
 """
-from .auth import register
+from .auth import register, login
