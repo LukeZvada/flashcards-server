@@ -20,10 +20,7 @@ from django.urls import path
 from django.conf.urls import include
 from django.conf import settings
 from rest_framework import routers
-from rest_framework.generics import ListCreateAPIView
-from rest_framework.viewsets import ModelViewSet
 from flashcardsapi.views import register, login, UserViewSet
-from flashcardsapi.views.users import UserSerializer
 
 
 router = routers.DefaultRouter(trailing_slash=False)
