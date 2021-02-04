@@ -6,6 +6,7 @@
             "question_text": "What are the four collection data types in Python?",
             "question_display": "What are the four collection data types in Python?",
             "answer_value": "List, tuple, dictionary, and set"
+            
         }
     },
     {
@@ -15,6 +16,7 @@
             "question_text": "Lists in Python are similar to what data structure in JavaScript?",
             "question_display": "Lists in Python are similar to what data structure in JavaScript?",
             "answer_value": "Arrays"
+           
         }
     },
     {
