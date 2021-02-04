@@ -1,0 +1,11 @@
+[
+    {
+        "model": "flashcardsapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "HTML",
+            "approved": 0
+        }
+    }
+
+]

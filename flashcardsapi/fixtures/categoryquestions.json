@@ -1,0 +1,11 @@
+[
+    {
+        "model": "flashcardsapi.categoryquestion",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "question": 1
+        }
+    }
+    
+]
