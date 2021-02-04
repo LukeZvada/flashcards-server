@@ -1,44 +1,36 @@
-""" CurrentUser ViewSet Module"""
+"""User viewset and serializer"""
 from django.contrib.auth.models import User
-from django.core.exceptions import ValidationError
-from django.http import HttpResponseServerError
-from rest_framework.viewsets import ViewSet
-from rest_framework import serializers, status
-from rest_framework.response import Response
 from rest_framework.decorators import action
+from rest_framework.viewsets import ViewSet, ModelViewSet
+from rest_framework.response import Response
+from rest_framework import serializers, status
 
+class UserSerializer(serializers.ModelSerializer):
+    """JSON serializer for User"""
+    class Meta:
+        model = User
+        fields= ('id', 'username', 'is_staff')
 
-class CurrentUser(ViewSet):
-    """User Class"""
+class UserViewSet(ModelViewSet):
 
     def list(self, request):
-        """ handles GET currently logged in user """
-
-        #the code in the parentheses is like a WHERE clause in SQL
-        user = request.auth.user
-
-        #imported the UserSerializer from rareuser.py to use in this module
-        serializer = UserSerializer(user, many=False, context={'request': request})
-        return Response(serializer.data)
-
+        # queryset = self.get_queryset()
+        queryset = User.objects.get(id=request.user.id)
+        
+        serializer_class = UserSerializer(queryset, many=False)
+        return Response(serializer_class.data)
+    
     @action(methods=['PUT'], detail=True)
-    def approve(self, request, pk=None):
+    def flip_is_staff(self, request, pk=None):
 
         user = User.objects.get(pk=pk)
 
-        if user.is_staff != False:
+        if user.is_staff == True:
+            user.is_staff = False
+            user.save()
+        else:
             user.is_staff = True
             user.save()
         
-        elif user.is_staff != True:
-            user.is_staff = False
-            user.save()
-        
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-
-class UserSerializer(serializers.ModelSerializer):
-    """Serializer """
-
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'is_staff')
+  
