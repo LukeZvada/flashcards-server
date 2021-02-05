@@ -10,6 +10,13 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from django.contrib.auth.models import User
+from flashcardsapi.models import Question
+
+class QuestionSerializer(serializers.ModelSerializer):
+    """  Serializer for questions """
+    class Meta:
+        model = Question
+        fields = ("id", "question_text", "question_display", "answer_value", "approved")
 
 
 class Questions(ViewSet):
@@ -17,14 +24,10 @@ class Questions(ViewSet):
 
     def list(self, request):
         """
-        Handles GET requests to the /questions resource
-        Method arguments:
-            request -- The full HTTP request object
-        URL: http://localhost:8000/questions
-        Request Method: GET
-        Response:
-            {
-                "id": 1,
-
-            }
+        Return all questions
         """
+
+        questions = Question.objects.all()
+
+        serializer = QuestionSerializer(questions, many=True, context={'request': request})
+        return Response(serializer.data)
