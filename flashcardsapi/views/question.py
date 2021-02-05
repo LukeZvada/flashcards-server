@@ -31,3 +31,12 @@ class Questions(ViewSet):
 
         serializer = QuestionSerializer(questions, many=True, context={'request': request})
         return Response(serializer.data)
+
+    def retrieve(self, request, pk=None):
+        """ Return single question """
+        try:
+            question = Question.objects.get(pk=pk)
+            serializer = QuestionSerializer(question, context={'request': request})
+            return Response(serializer.data)
+        except Question.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
