@@ -33,7 +33,7 @@ def register(request):
         {
         "username": "hermionegranger",
         "email": "hermione@granger.com",
-        "password": "harry",
+        "password": "hermione",
         "first_name": "Hermione",
         "last_name": "Granger"
         }
