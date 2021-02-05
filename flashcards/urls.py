@@ -20,12 +20,13 @@ from django.urls import path
 from django.conf.urls import include
 from django.conf import settings
 from rest_framework import routers
-from flashcardsapi.views import register, login, UserViewSet, CategoryQuestions
+from flashcardsapi.views import register, login, CategoryQuestions, Categories, UserViewSet
 
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'user', UserViewSet, 'user')
 router.register(r'categoryquestions', CategoryQuestions, 'categoryquestion')
+router.register(r'categories', Categories, 'category')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
