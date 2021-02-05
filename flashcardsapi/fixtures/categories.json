@@ -1,0 +1,60 @@
+[
+    {
+        "model": "flashcardsapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "HTML",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "React",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 3,
+        "fields": {
+            "label": "JavaScript",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 4,
+        "fields": {
+            "label": "Methods",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 5,
+        "fields": {
+            "label": "SQL",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 6,
+        "fields": {
+            "label": "Data",
+            "approved": 0
+        }
+    },
+    {
+        "model": "flashcardsapi.category",
+        "pk": 7,
+        "fields": {
+            "label": "ORM",
+            "approved": 0
+        }
+    }
+    
+
+]
