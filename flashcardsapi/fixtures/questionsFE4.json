@@ -1,7 +1,7 @@
 [
     {
     "model": "flashcardsapi.question",
-    "pk": 1,
+    "pk": 62,
     "fields": {
         "question_text": "What is React?",
         "question_display": "What is React?",
@@ -10,7 +10,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 2,
+    "pk": 63,
     "fields": {
       "question_text": "What is JSX?",
       "question_display": "What is JSX?",
@@ -19,7 +19,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 3,
+    "pk": 64,
     "fields": {
         "question_text": "What is the Single-responsibility principle?",
         "question_display": "What is the Single-responsibility principle?",
@@ -28,7 +28,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 4,
+    "pk": 65,
     "fields": {
         "question_text": "What does a React hook do?",
         "question_display": "What does a React hook do?",
@@ -37,7 +37,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 5,
+    "pk": 66,
     "fields": {
         "question_text": "What are React props?",
         "question_display": "What are React props?",
@@ -46,7 +46,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 6,
+    "pk": 67,
     "fields": {
         "question_text": "What does the useState() hook do?",
         "question_display": "What does the useState() hook do?",
@@ -55,7 +55,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 7,
+    "pk": 68,
     "fields": {
         "question_text": "What does createContext() do in React?",
         "question_display": "What does createContext() do in React?",
@@ -64,7 +64,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 8,
+    "pk": 69,
     "fields": {
         "question_text": "What does useContext() for in React?",
         "question_display": "What does useContext() for in React?",
@@ -73,7 +73,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 9,
+    "pk": 70,
     "fields": {
         "question_text": "What does useEffect() do?",
         "question_display": "What does useEffect() do?",
@@ -82,7 +82,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 10,
+    "pk": 71,
     "fields": {
         "question_text": "What does history.push() do? May also appear as props.history.push()",
         "question_display": "What does history.push() do?",
@@ -91,7 +91,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 11,
+    "pk": 72,
     "fields": {
         "question_text": "What does the GET HTTP method do?",
         "question_display": "What does the GET HTTP method do?",
@@ -100,7 +100,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 12,
+    "pk": 73,
     "fields": {
         "question_text": "What does the POST HTTP method do?",
         "question_display": "What does the POST HTTP method do?",
@@ -109,7 +109,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 13,
+    "pk": 74,
     "fields": {
         "question_text": "What does the PUT HTTP method do?",
         "question_display": "What does the PUT HTTP method do?",
@@ -118,7 +118,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 14,
+    "pk": 75,
     "fields": {
         "question_text": "What does the DELETE HTTP method do?",
         "question_display": "What does the DELETE HTTP method do?",
@@ -127,7 +127,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 15,
+    "pk": 76,
     "fields": {
         "question_text": "What does the PATCH HTTP method do?",
         "question_display": "What does the PATCH HTTP method do?",
@@ -136,7 +136,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 16,
+    "pk": 77,
     "fields": {
         "question_text": "What is a conditional (ternary) operator/ ternary expression?",
         "question_display": "What is a conditional (ternary) operator?",
