@@ -116,7 +116,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "question_text": "Which is the instance attribute and which is the class attribute? class Dog: species = 'Canis familiaris' def __init__(self, name, age): self.name = name self.age = age",
             "question_display": "Which is the instance attribute and which is the class attribute?",
@@ -126,7 +126,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 11,
+        "pk": 13,
         "fields": {
             "question_text": "Instantiate the following class -- class Dog: species = 'Canis familiaris' def __init__(self, name, age): self.name = name self.age = age",
             "question_display": "Instantiate the the Dog class.",

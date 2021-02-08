@@ -11,6 +11,7 @@ python manage.py loaddata questionsBE2
 python manage.py loaddata questionsBE3
 python manage.py loaddata questionsFE1
 python manage.py loaddata questionsFE2
+python manage.py loaddata questionsFE3
 python manage.py loaddata questionsFE4
 python manage.py loaddata categories
 python manage.py loaddata categoryquestions

@@ -1,7 +1,7 @@
 [
     {
         "model": "flashcardsapi.question",
-        "pk": 1,
+        "pk": 14,
         "fields": {
             "question_text": "In the most general sense, what is inheritance?",
             "question_display": "In the most general sense, what is inheritance?",
@@ -10,7 +10,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 2,
+        "pk": 15,
         "fields": {
             "question_text": "Why is should I care about inheritance?",
             "question_display": "Why is should I care about inheritance?",
@@ -19,7 +19,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 3,
+        "pk": 16,
         "fields": {
             "question_text": "What is method overriding?",
             "question_display": "What is method overriding?",
@@ -28,7 +28,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 4,
+        "pk": 17,
         "fields": {
             "question_text": "What is database normalization?",
             "question_display": "What is database normalization?",
@@ -37,7 +37,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 5,
+        "pk": 18,
         "fields": {
             "question_text": "What is INNER JOIN (JOIN)?",
             "question_display": "What is INNER JOIN?",
@@ -46,7 +46,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 6,
+        "pk": 19,
         "fields": {
             "question_text": "What is LEFT JOIN?",
             "question_display": "What is LEFT JOIN?",
@@ -55,7 +55,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 7,
+        "pk": 20,
         "fields": {
             "question_text": "What is RIGHT JOIN?",
             "question_display": "What is RIGHT JOIN?",
@@ -64,7 +64,7 @@
     },
     {
         "model": "flashcardsapi.question",
-        "pk": 8,
+        "pk": 21,
         "fields": {
             "question_text": "What is FULL JOIN?",
             "question_display": "What is FULL JOIN?",

@@ -1,7 +1,7 @@
 [
     {
     "model": "flashcardsapi.question",
-    "pk": 1,
+    "pk": 35,
     "fields": {
         "question_text": "What is git?",
         "question_display": "What is git?",
@@ -10,7 +10,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 2,
+    "pk": 36,
     "fields": {
       "question_text": "What are Semantic Elements?",
       "question_display": "What are Semantic Elements?",
@@ -19,7 +19,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 3,
+    "pk": 37,
     "fields": {
         "question_text": "What is Github?",
         "question_display": "What is Github?",
@@ -28,7 +28,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 4,
+    "pk": 38,
     "fields": {
         "question_text": "What is the purpose of an object?",
         "question_display": "What is the purpose of an object?",
@@ -37,7 +37,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 5,
+    "pk": 39,
     "fields": {
         "question_text": "Why is it important to use modules?",
         "question_display": "Why is it important to use modules?",
@@ -46,7 +46,7 @@
   }, 
   {
     "model": "flashcardsapi.question",
-    "pk": 6,
+    "pk": 40,
     "fields": {
         "question_text": "What is the difference between let and const?",
         "question_display": "What is the difference between let and const?",
@@ -55,7 +55,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 7,
+    "pk": 41,
     "fields": {
         "question_text": "What does the forEach() array method do?",
         "question_display": "What does the forEach() array method do?",
@@ -64,7 +64,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 8,
+    "pk": 42,
     "fields": {
         "question_text": "What does the filter() array method do?",
         "question_display": "What does the filter() array method do?",
@@ -73,7 +73,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 9,
+    "pk": 43,
     "fields": {
         "question_text": "What does the map() array method do?",
         "question_display": "What does the map() array method do?",
@@ -82,7 +82,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 10,
+    "pk": 44,
     "fields": {
         "question_text": "What does the find() array method do?",
         "question_display": "What does the find() array method do?",
@@ -91,7 +91,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 11,
+    "pk": 45,
     "fields": {
         "question_text": "What is a DataProvider module?",
         "question_display": "What is a DataProvider module?",
@@ -100,7 +100,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 12,
+    "pk": 46,
     "fields": {
         "question_text": "What is the DOM?",
         "question_display": "What is the DOM?",
@@ -109,7 +109,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 13,
+    "pk": 47,
     "fields": {
         "question_text": "What is a query selector?",
         "question_display": "What is a query selector?",
@@ -118,7 +118,7 @@
   },
   {
     "model": "flashcardsapi.question",
-    "pk": 14,
+    "pk": 48,
     "fields": {
         "question_text": "What is a factory function?",
         "question_display": "What is a factory function?",
